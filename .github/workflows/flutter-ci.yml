@@ -10,7 +10,8 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # ✅ Linux environment
+    #runs-on: ubuntu-latest  # ✅ Linux environment
+    runs-on: windows-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
